@@ -1,0 +1,55 @@
+@media screen and (max-width: 1160px) {
+  nav{
+    display: none;
+  }
+  section{
+  	width: 100vw;
+  }
+  section .hero{
+  	justify-content: center;
+  }
+  section .hero box{
+  	margin-left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  }
+  .connect{
+  	display: none;
+  }
+  section .hero box p{
+  	text-align: center;
+  	max-width: 90%;
+  }
+  section .info .klipovi_lista{
+  	justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 535px) {
+	section .strimeri .lista{
+		justify-content: space-evenly;
+	}
+	section .hero box h1{
+		font-size: 18vw;
+		margin-bottom: -17px;
+	}
+	section .hero box h3{
+		font-size: 5vw;
+	}
+	section .hero box p{
+		font-size: 11px;
+  line-height: 14px;
+	}
+	section .info .klipovi_lista .klip{
+		height: auto;
+	}
+	section .staff .staff_lista{
+		justify-content: center;
+	}
+	section .staff .staff_lista .item{
+		width: 90%;
+	}
+	section .hero{
+		height: 370px;
+	}
+}
